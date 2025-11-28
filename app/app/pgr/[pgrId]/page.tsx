@@ -8,7 +8,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 // Imports do Next.js
 import { useRouter, useParams } from 'next/navigation';
 
-import { usePersistentState } from '../../../../hooks/usePersistentState';
+import { usePersistentState } from '../../../hooks/usePersistentState';
 import { usePGRStore, useActivePgrState } from '../../pgrStore';
 
 import { z } from 'zod';
